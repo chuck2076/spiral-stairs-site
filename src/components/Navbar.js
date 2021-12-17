@@ -27,16 +27,16 @@ export default function Navbar({currentPage, handlePageChange}){
         <a className="nav-link" href="#">Contact</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">facebook</a>
+        <a className="nav-link" href="#"><img src="/images/2515845_black and white_dark grey_facebook_icon.svg"></img>facebook</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">twitter</a>
+        <a className="nav-link" href="#"><img src="/images/3228543_app_b_w_logo_media_popular_icon.svg"></img>twitter</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">instagram</a>
+        <a className="nav-link" href="#"><img src="/images/3228551_app_b_w_instagram_logo_media_icon.svg"></img>instagram</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">youtube</a>
+        <a className="nav-link" href="#"><img src="/images/3228540_app_b_w_logo_media_popular_icon.svg"></img>youtube</a>
       </li>
       {/* <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
