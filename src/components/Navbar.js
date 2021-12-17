@@ -2,7 +2,7 @@
 
 import React from "react";
 
-export default function Navbar({currentPage, handlePageChange}){
+export default function Navbar({currentPage, setCurrentPage}){
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a className="navbar-brand" href="#">Spinal Spiral Spirally</a>
@@ -11,20 +11,25 @@ export default function Navbar({currentPage, handlePageChange}){
   </button>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
     <ul className="navbar-nav">
-      <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+      <li id="home" className={currentPage === 'home' ? "nav-item active" : "nav-item"}>
+        <a className="nav-link" href="#"
+        onClick={setCurrentPage('home')}>Home <span className="sr-only">(current)</span></a>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Listen</a>
+      <li id="music" className={currentPage === 'music' ? "nav-item active" : "nav-item"}>
+        <a className="nav-link" href="#"
+        onClick={setCurrentPage('music')}>Listen</a>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Watch</a>
+      <li id="videos" className={currentPage === 'videos' ? "nav-item active" : "nav-item"}>
+        <a className="nav-link" href="#"
+        onClick={setCurrentPage('videos')}>Watch</a>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Shop</a>
+      <li id="merch" className={currentPage === 'merch' ? "nav-item active" : "nav-item"}>
+        <a className="nav-link" href="#"
+        onClick={setCurrentPage('merch')}>Shop</a>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Contact</a>
+      <li id="contact" className={currentPage === 'contact' ? "nav-item active" : "nav-item"}>
+        <a className="nav-link" href="#"
+        onClick={setCurrentPage('contact')}>Contact</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#"><img src="/images/2515845_black and white_dark grey_facebook_icon.svg"></img>facebook</a>
@@ -52,4 +57,4 @@ export default function Navbar({currentPage, handlePageChange}){
   </div>
 </nav>
     )
-}
+};
