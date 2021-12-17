@@ -1,15 +1,16 @@
 import React from "react";
-import Contact from "./components/Contact";
+import './App.css';
+import Footer from "./components/Footer";
 import SiteContainer from "./SiteContainer";
 
 export default function App() {
   return (
-    <main className = "text-indigo-400 bg-blue-900 body-font">
+    <main styles ={{ background: "linear-gradient(#e66465, #9198e5)" }}>
 
       <SiteContainer />
-      <Contact />
+      <Footer />
     </main>
   );
   }
 
-export default App;
+

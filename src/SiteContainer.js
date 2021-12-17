@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Merch from './components/Merch';
-import Music from './components/Testimonials';
+import Music from './components/Music';
 import Videos from './components/Videos';
 
 

@@ -2,4 +2,6 @@
 
 import React from "react";
 
-export default function Videos()
+export default function Videos(){
+    
+}
