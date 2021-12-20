@@ -5,7 +5,7 @@ import React, {useState} from "react";
 export default function Navbar({currentPage, setCurrentPage}){
     
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-linear-gradient(#e66465, #9198e5)">
   <a className="navbar-brand" href="#">Spinal Spiral Spirally</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
