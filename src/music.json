@@ -26,9 +26,25 @@
   {
     "artist": "Preston School Of Industry",
     "title": "Monsoon",
-    "image": "ss-monsoon-album-art.jpeg",
+    "image": "./ss-monsoon-album-art.jpeg",
     "appleUrl": "https://music.apple.com/us/album/monsoon-deluxe-edition/1443907118",
     "spotUrl": "https://open.spotify.com/album/1aoq6sALy90x5gpPEqy6ag?si=1jRr_jbPRGe-EanAGwam9A",
     "spotEmbed": "<iframe src='https://open.spotify.com/embed/album/1aoq6sALy90x5gpPEqy6ag?utm_source=generator' width='100%' height='80' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>"
+  },
+  {
+    "artist": "Preston School Of Industry",
+    "title": "All This Sounds Gas",
+    "image": "./ss-all-this-sounds-gas-psoi-album-art.jpeg",
+    "appleUrl": "https://music.apple.com/us/album/all-this-sounds-gas-deluxe-edition/1307290509",
+    "spotUrl": "https://open.spotify.com/album/04zSSM4LTRdmYPW1lgFhK0?si=sSrg1OFZSmG4u_yt-73URA",
+    "spotEmbed": "<iframe src='https://open.spotify.com/embed/album/04zSSM4LTRdmYPW1lgFhK0?utm_source=generator' width='100%' height='80' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>"
+  },
+  {
+    "artist": "Preston School Of Industry",
+    "title": "Goodbye to the Edge City",
+    "image": "./ss-psoi-goodbye-to-edge-city.jpeg",
+    "appleUrl": "https://music.apple.com/us/album/goodbye-to-the-edge-city-ep/1156736275",
+    "spotUrl": "https://open.spotify.com/album/3t3pqfqnGpxwbyoFN6KKgw?si=wM6HS57bQ0C51sxojONe0g",
+    "spotEmbed": "<iframe src='https://open.spotify.com/embed/album/3t3pqfqnGpxwbyoFN6KKgw?utm_source=generator' width='100%' height='80' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>"
   }
 ]
