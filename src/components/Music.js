@@ -12,7 +12,6 @@ export default function Music(){
               <h4>{album.title}</h4>
               <img src={album.image} alt={album.title}></img>
               <iframe title={album.title} src={album.spotEmbed} width="100%" height="80" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-            {/* {album.spotEmbed.replace(/^"(.*)"$/, '$1')} */}
             </div>
            )
         })}
