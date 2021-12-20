@@ -8,8 +8,8 @@ import Music from './components/Music';
 import Videos from './components/Videos';
 
 
-export default function SiteContainer() {
-  const [currentPage, setCurrentPage] = useState('home');
+export default function SiteContainer(currentPage, setCurrentPage) {
+  
 
   const renderPage = () => {
     if (currentPage === 'home') {

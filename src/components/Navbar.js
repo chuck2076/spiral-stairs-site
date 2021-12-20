@@ -1,8 +1,9 @@
 // Links plus Social media Links and Spiral Name
 
-import React from "react";
+import React, {useState} from "react";
 
 export default function Navbar({currentPage, setCurrentPage}){
+    
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a className="navbar-brand" href="#">Spinal Spiral Spirally</a>
