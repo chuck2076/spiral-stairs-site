@@ -1,0 +1,34 @@
+[
+  {
+    "artist": "Spiral Stairs",
+    "title": "We Wanna Be Hypnotized",
+    "image": "./hypnotized.jpg",
+    "appleUrl": "https://music.apple.com/us/album/we-wanna-be-hypnotized-deluxe-edition/1510630133",
+    "spotUrl": "https://open.spotify.com/album/6b1Wx6DCw1JU3Vcx0SScB7?si=QPQ5so_PTlm83Bi_XTxCwA",
+    "spotEmbed": "<iframe src='https://open.spotify.com/embed/album/6b1Wx6DCw1JU3Vcx0SScB7?utm_source=generator' width='100%' height='80' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>"
+  },
+  {
+    "artist": "Spiral Stairs",
+    "title": "Doris And The Daggers",
+    "image": "./doris.jpeg",
+    "appleUrl": "https://music.apple.com/us/album/doris-and-the-daggers-deluxe-edition/1508771872",
+    "spotUrl": "https://open.spotify.com/album/6z6hVFLG5RBDDrzaiJeuXx?si=m4IBe-uST4O4bcidS6-Wfg",
+    "spotEmbed": "<iframe src='https://open.spotify.com/embed/album/6z6hVFLG5RBDDrzaiJeuXx?utm_source=generator' width='100%' height='80' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>"
+  },
+  {
+    "artist": "Spiral Stairs",
+    "title": "The Real Feel",
+    "image": "./ss-reel-feel-album-art.jpeg",
+    "appleUrl": "https://music.apple.com/us/album/the-real-feel-deluxe-edition/1444528744",
+    "spotUrl": "https://open.spotify.com/album/5hBa4iinZ8f9lR5PVh3eOv?si=fu8rbxeYRGGpnmVAvo76aA",
+    "spotEmbed": "<iframe src='https://open.spotify.com/embed/album/5hBa4iinZ8f9lR5PVh3eOv?utm_source=generator' width='100%' height='80' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>"
+  },
+  {
+    "artist": "Preston School Of Industry",
+    "title": "Monsoon",
+    "image": "ss-monsoon-album-art.jpeg",
+    "appleUrl": "https://music.apple.com/us/album/monsoon-deluxe-edition/1443907118",
+    "spotUrl": "https://open.spotify.com/album/1aoq6sALy90x5gpPEqy6ag?si=1jRr_jbPRGe-EanAGwam9A",
+    "spotEmbed": "<iframe src='https://open.spotify.com/embed/album/1aoq6sALy90x5gpPEqy6ag?utm_source=generator' width='100%' height='80' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>"
+  }
+]
