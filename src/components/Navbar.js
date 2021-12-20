@@ -3,6 +3,7 @@
 import React from "react";
 
 export default function Navbar({currentPage, setCurrentPage}){
+    console.log("state = "+currentPage)
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-linear-gradient(#e66465, #9198e5)">
   <a className="navbar-brand" href="#">Spinal Spiral Spirally</a>
@@ -13,24 +14,29 @@ export default function Navbar({currentPage, setCurrentPage}){
     <ul className="navbar-nav">
       <li id="home" className={currentPage === 'home' ? "nav-item active" : "nav-item"}>
         <a className="nav-link" href="#"
-        onClick={setCurrentPage('home')}>Home <span className="sr-only">(current)</span></a>
+        onClick={()=> setCurrentPage('home')}
+        >Home <span className="sr-only">(current)</span></a>
       </li>
       <li id="music" className={currentPage === 'music' ? "nav-item active" : "nav-item"}>
         <a className="nav-link" href="#"
-        onClick={setCurrentPage('music')}>Listen</a>
+        onClick={()=> setCurrentPage('music')}
+        >Listen</a>
       </li>
       <li id="videos" className={currentPage === 'videos' ? "nav-item active" : "nav-item"}>
         <a className="nav-link" href="#"
-        onClick={setCurrentPage('videos')}>Watch</a>
+        onClick={()=> setCurrentPage('videos')}
+        >Watch</a>
       </li>
       <li id="merch" className={currentPage === 'merch' ? "nav-item active" : "nav-item"}>
         <a className="nav-link" href="#"
-        onClick={setCurrentPage('merch')}>Shop</a>
+        onClick={()=> setCurrentPage('merch')}
+        >Shop</a>
       </li>
-      <li id="contact" className={currentPage === 'contact' ? "nav-item active" : "nav-item"}>
+      {/* <li id="contact" className={currentPage === 'contact' ? "nav-item active" : "nav-item"}>
         <a className="nav-link" href="#"
-        onClick={setCurrentPage('contact')}>Contact</a>
-      </li>
+        onClick={()=> setCurrentPage('contact')}
+        >Contact</a>
+      </li> */}
       <li className="nav-item">
         <a className="nav-link" href="#"><img src="/images/2515845_black and white_dark grey_facebook_icon.svg"></img>facebook</a>
       </li>
