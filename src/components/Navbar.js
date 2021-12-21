@@ -17,6 +17,11 @@ export default function Navbar({currentPage, setCurrentPage}){
         onClick={()=> setCurrentPage('home')}
         >Home <span className="sr-only">(current)</span></a>
       </li>
+      <li id="tour" className={currentPage === 'tour' ? "nav-item active" : "nav-item"}>
+        <a className="nav-link" href="#"
+        onClick={()=> setCurrentPage('tour')}
+        >Tour</a>
+      </li>
       <li id="music" className={currentPage === 'music' ? "nav-item active" : "nav-item"}>
         <a className="nav-link" href="#"
         onClick={()=> setCurrentPage('music')}
