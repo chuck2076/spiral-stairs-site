@@ -5,6 +5,7 @@ import Home from './Home';
 import Merch from './Merch';
 import Music from './Music';
 import Videos from './Videos';
+import Tour from './Tour';
 
 
 const renderPage = ({currentPage}) => {
@@ -16,6 +17,8 @@ const renderPage = ({currentPage}) => {
     return <Videos />;
   } else if (currentPage === 'merch') {
     return <Merch />;
+  } else if (currentPage === 'tour') {
+    return <Tour />;
   }
 };
 
