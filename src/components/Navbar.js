@@ -5,8 +5,8 @@ import React from "react";
 export default function Navbar({currentPage, setCurrentPage}){
     console.log("state = "+currentPage)
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-linear-gradient(#e66465, #9198e5)">
-  <a className="navbar-brand" href="#">Spinal Spiral Spirally</a>
+        <nav className="navbar navbar-expand-lg navbar-light bg-linear-gradient(#5e5368, #000000)">
+ <a className="navbar-brand" href="#"><h1>Spinal Spiral Spirally</h1></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -42,17 +42,15 @@ export default function Navbar({currentPage, setCurrentPage}){
         onClick={()=> setCurrentPage('contact')}
         >Contact</a>
       </li> */}
+
       <li className="nav-item">
-        <a className="nav-link" href="#"><img src="/images/2515845_black and white_dark grey_facebook_icon.svg"></img>facebook</a>
+        <a className="nav-link" href="https://twitter.com/spiralmusic"><img src="/images/3228543_app_b_w_logo_media_popular_icon.svg"></img>twitter</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#"><img src="/images/3228543_app_b_w_logo_media_popular_icon.svg"></img>twitter</a>
+        <a className="nav-link" href="https://www.instagram.com/spiralstairsofficial/"><img src="/images/3228551_app_b_w_instagram_logo_media_icon.svg"></img>instagram</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#"><img src="/images/3228551_app_b_w_instagram_logo_media_icon.svg"></img>instagram</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#"><img src="/images/3228540_app_b_w_logo_media_popular_icon.svg"></img>youtube</a>
+        <a className="nav-link" href="https://www.youtube.com/watch?v=FJ9tGhVk9j4"><img src="/images/3228540_app_b_w_logo_media_popular_icon.svg"></img>youtube</a>
       </li>
       {/* <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

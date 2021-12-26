@@ -1,6 +1,17 @@
+@import url(//db.onlinewebfonts.com/c/ce84c94c656759caafe1c408c8cdd90d?family=Pavement);
 
+@font-face {font-family: "Pavement"; src: url("//db.onlinewebfonts.com/t/ce84c94c656759caafe1c408c8cdd90d.eot"); 
+  src: url("//db.onlinewebfonts.com/t/ce84c94c656759caafe1c408c8cdd90d.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/ce84c94c656759caafe1c408c8cdd90d.woff2") 
+  format("woff2"), url("//db.onlinewebfonts.com/t/ce84c94c656759caafe1c408c8cdd90d.woff") 
+  format("woff"), url("//db.onlinewebfonts.com/t/ce84c94c656759caafe1c408c8cdd90d.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/ce84c94c656759caafe1c408c8cdd90d.svg#Pavement") format("svg"); }
 
-body {
+  h1, nav-link {
+    font-family: 'Pavement', sans-serif;
+  }
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,4 +23,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
