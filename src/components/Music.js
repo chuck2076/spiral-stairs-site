@@ -5,9 +5,8 @@ import RBCarousel from "react-bootstrap-carousel";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
 export default function Music(){
-   return( <div className="align-items-center">
-        <h2>Listen Page</h2>
-         <RBCarousel               
+   return( <div>
+         <RBCarousel           
             animation={true}
             autoplay={false}
               slideshowSpeed={2000}
@@ -16,10 +15,10 @@ export default function Music(){
             >
         {musicData.map((album)=>{
            return (
-            <div key = {album.title}>
+            <div key = {album.title} className="d-block w-100">
               <h3>{album.artist}</h3>
               <h4>{album.title}</h4>
-              <img src={album.image} alt={album.title}></img>
+              <img className="justify-content-center" src={album.image} alt={album.title}></img>
               <iframe title={album.title} src={album.spotEmbed} width="100%" height="80" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
            )

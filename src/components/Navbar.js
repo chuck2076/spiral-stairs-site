@@ -11,14 +11,14 @@ export default function Navbar({currentPage, setCurrentPage}){
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul className="navbar-nav">
+  <h3>  <ul className="navbar-nav ml-5">
       <li id="home" className={currentPage === 'home' ? "nav-item active" : "nav-item"}>
         <a className="nav-link" href="#"
         onClick={()=> setCurrentPage('home')}
         >Home <span className="sr-only">(current)</span></a>
       </li>
       <li id="tour" className={currentPage === 'tour' ? "nav-item active" : "nav-item"}>
-        <a className="nav-link" href="#"
+        <a className="nav-link" href="https://pavementband.com/#tour"
         onClick={()=> setCurrentPage('tour')}
         >Tour</a>
       </li>
@@ -33,7 +33,7 @@ export default function Navbar({currentPage, setCurrentPage}){
         >Watch</a>
       </li>
       <li id="merch" className={currentPage === 'merch' ? "nav-item active" : "nav-item"}>
-        <a className="nav-link" href="#"
+        <a className="nav-link" href="https://kf-merch.com/collections/spiral-stairs"
         onClick={()=> setCurrentPage('merch')}
         >Shop</a>
       </li>
@@ -43,15 +43,7 @@ export default function Navbar({currentPage, setCurrentPage}){
         >Contact</a>
       </li> */}
 
-      <li className="nav-item">
-        <a className="nav-link" href="https://twitter.com/spiralmusic"><img src="/images/3228543_app_b_w_logo_media_popular_icon.svg"></img></a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="https://www.instagram.com/spiralstairsofficial/"><img src="/images/3228551_app_b_w_instagram_logo_media_icon.svg"></img></a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="https://www.youtube.com/watch?v=FJ9tGhVk9j4"><img src="/images/3228540_app_b_w_logo_media_popular_icon.svg"></img></a>
-      </li>
+
       {/* <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown link
@@ -63,6 +55,7 @@ export default function Navbar({currentPage, setCurrentPage}){
         </div>
       </li> */}
     </ul>
+    </h3>
   </div>
 </nav>
     )
