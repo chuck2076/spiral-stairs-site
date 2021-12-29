@@ -16,7 +16,7 @@ export default function Footer(){
         <a href="https://www.youtube.com/watch?v=FJ9tGhVk9j4"><img src="/images/3228540_app_b_w_logo_media_popular_icon.svg"></img></a>
       </div>
       <div className="m-2">
-        <a href="mailto:spiralstairsofficial@gmail.com"><img src="/images/3228540_app_b_w_logo_media_popular_icon.svg"></img></a>
+        <a href="mailto:spiralstairsofficial@gmail.com"><img src="/images/4490614_email_internet_media_social_social media_icon.svg"></img></a>
       </div>
         
         </nav>

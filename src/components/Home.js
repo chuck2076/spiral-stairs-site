@@ -1,13 +1,12 @@
 //This is the latest news, album releases, and other updates.
 
 import React from "react";
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import {Container, Row, Col} from 'react-bootstrap'
+
 
 export default function Home(){
     return(
-    <Container flex>
+    <Container flex="true">
         <Row className="justify-content-center mt-5">
             <Col xs={6} md={3}>
         <h1 style = {{color:"white"}}>New Album Out February 2022</h1>
