@@ -6,7 +6,7 @@ import RBCarousel from "react-bootstrap-carousel";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
 export default function Music(){
-   return( <Container flex="true">
+   return( <Container flex="true" style = {{color:"white"}}>
          <RBCarousel           
             animation={true}
             autoplay={false}

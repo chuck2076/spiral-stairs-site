@@ -9,7 +9,7 @@ export default function Home(){
     <Container flex="true">
         <Row className="justify-content-center mt-5">
             <Col xs={6} md={3}>
-        <h1 style = {{color:"white"}}>New Album Out February 2022</h1>
+        <h1 style = {{color: "white"}}>New Album Out February 2022</h1>
         </Col>
         <Col xs={6} md={3}>
             <img style = {{border: "3px outset"}}src="/images/hypnotized.jpg" alt="hypnotized"></img>
