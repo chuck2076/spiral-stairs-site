@@ -1,5 +1,4 @@
-import React from 'react'
-import Home from '../components/Home'
+import Home from '../components/Home';
 
 
-export default Home
+export default Home;

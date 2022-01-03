@@ -1,5 +1,4 @@
-import React from 'react'
-import Merch from '../components/Merch'
+import Merch from '../components/Merch';
 
 
-export default Merch
+export default Merch;

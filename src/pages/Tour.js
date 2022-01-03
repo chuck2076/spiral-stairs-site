@@ -1,5 +1,4 @@
-import React from 'react'
-import Tour from '../components/Tour'
+import Tour from '../components/Tour';
 
 
-export default Tour
+export default Tour;
