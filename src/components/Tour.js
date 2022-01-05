@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Tour(){
     return(
-        <div>
-            <h1>Tour Page</h1>
+        <div style={{marginLeft:'10%'}}>
+            <iframe src="https://pavementband.com/#tour" width="95%" height="1000"></iframe>
         </div>
     )
     

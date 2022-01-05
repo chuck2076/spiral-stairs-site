@@ -18,7 +18,7 @@ export default function Navbar({currentPage, setCurrentPage}){
         >Home <span className="sr-only">(current)</span></a>
       </li>
       <li id="tour" className={currentPage === 'tour' ? "nav-item active" : "nav-item"}>
-        <a className="nav-link" href="https://pavementband.com/#tour" target="_blank"
+        <a className="nav-link" href="/tour" 
         onClick={()=> setCurrentPage('tour')}
         >Tour</a>
       </li>

@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Merch(){
     return(
-        <div>
-            <h1>Merch Page</h1>
+        <div style={{marginLeft:'10%'}}>
+            <iframe src="https://kf-merch.com/collections/spiral-stairs" width="95%" height="1000"></iframe>
         </div>
     )
     
