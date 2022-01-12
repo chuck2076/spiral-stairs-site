@@ -3,15 +3,14 @@ import React, { useState } from "react";
 import videoData from '../videos.json'
 
 export default function Videos(){
-    const [artist, setArtist] = useState('')
+    const [artist, setArtist] = useState('Spiral Stairs')
     console.log('videos= '+artist)
     return( <div className="m-2 justify-content-center">
         <h1>Watch</h1>
-        <h6 style = {{color: "white"}}>Choose an artist to view YouTube videos!</h6>        
+        <h6 style = {{color: "white"}}>Click to select a project!</h6>        
         <select className="custom-select m-50% w-50px" id="artist"
         onChange={(e)=>setArtist(e.target.value)}>
-          <option defaultValue>Choose Artist</option>
-          <option value="Spiral Stairs">Spiral Stairs</option>
+          <option defaultValue="Spiral Stairs">Spiral Stairs</option>
           <option value="Preston School of Industry">Preston School of Industry</option>
           <option value="Pavement">Pavement</option>
         </select>
