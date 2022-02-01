@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 // Links plus Social media Links and Spiral Name
 
 import React from "react";
@@ -5,8 +6,8 @@ import React from "react";
 export default function Navbar({currentPage, setCurrentPage}){
     console.log("state = "+currentPage)
     return (
-        <nav className="navbar navbar-expand-lg navbar-light">
- <a className="navbar-brand" href="/"><h1>Spinal Spiral Spirally</h1></a>
+        <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundImage: 'url(images/Rainbow.jpg)', backgroundSize: '15%'}}>
+ <a className="navbar-brand" href="/"><img src="images/SpiralStairs.png" alt="Spiral Stairs" height="100px" /></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
