@@ -5,6 +5,7 @@ import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
+import './fonts/turnpike-webfont.ttf';
 
 import reportWebVitals from './reportWebVitals';
 

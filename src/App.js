@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
+
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Home from './pages/Home'
@@ -12,7 +12,7 @@ import Merch from './pages/Merch'
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
   return (
-    <main style={{ background: "linear-gradient(#b82e1f, #000000)" }}>
+    <main style={{ backgroundImage: "url( /images/BlueBackground.jpg)", backgroundSize: "100%", backgroundPosition: "absolute"}}>
       <BrowserRouter>
         <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
         <Routes>
