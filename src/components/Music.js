@@ -22,7 +22,7 @@ export default function Music(){
               <h3>{album.title}</h3>
               <img src={album.image} width='30%' alt={album.title}></img>
               <Row>
-              <iframe title={album.title} style={{textAlign: 'center', fontFamily: "Work Sans", margin: '5%'}} src={album.spotEmbed} width="70%" height="80" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+              <iframe title={album.title} style={{textAlign: 'center', fontFamily: "Work Sans", margin: '5% 15%', width: '70%', padding: '0%'}} src={album.spotEmbed} height="80" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                </Row>
             </div>
            )
