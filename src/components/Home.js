@@ -16,7 +16,7 @@ export default function Home(){
             <h1 style = {{color: "white", marginLeft: '10%'}}>New Album<br></br>April 2022</h1>
         </Col>
         <Col xs={3} flex="true">
-                <img src='images/Cheetah.png' alt="Cheetah" style={{width: '100%'}} className="img-fluid" />
+                <img src='images/Cheetah.png' alt="Cheetah" style={{width: '100%'}} className="img-fluid pr-5" />
         </Col>
         </Row>
         <Row className="justify-content-center m-5" flex="true">

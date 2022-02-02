@@ -7,7 +7,7 @@ export default function Navbar({currentPage, setCurrentPage}){
     console.log("state = "+currentPage)
     return (
         <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundImage: 'url(images/Rainbow.jpg)', backgroundSize: '15%'}}>
- <a className="navbar-brand" href="/"><img src="images/SpiralStairs.png" alt="Spiral Stairs" height="100px" /></a>
+ <a className="navbar-brand p-4" href="/"><img src="images/SpiralStairs.png" alt="Spiral Stairs" width="100%" /></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
