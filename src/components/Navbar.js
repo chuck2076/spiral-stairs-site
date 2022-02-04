@@ -3,16 +3,17 @@
 
 import React from "react";
 
+
 export default function Navbar({currentPage, setCurrentPage}){
     console.log("state = "+currentPage)
     return (
         <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundImage: 'url(images/Rainbow.jpg)', backgroundSize: '15%'}}>
- <a className="navbar-brand p-4" href="/"><img src="images/SpiralStairs.png" alt="Spiral Stairs" width="100%" /></a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+ <a className="navbar-brand p-auto" href="/"><img src="images/SpiralStairs.png" alt="Spiral Stairs" width="100%" /></a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
-  <h3>  <ul className="navbar-nav ml-5">
+<ul className="navbar-nav ml-auto">
       <li id="home" className={currentPage === 'home' ? "nav-item active" : "nav-item"}>
         <a className="nav-link" href="/"
         onClick={()=> setCurrentPage('home')}
@@ -56,7 +57,6 @@ export default function Navbar({currentPage, setCurrentPage}){
         </div>
       </li> */}
     </ul>
-    </h3>
   </div>
 </nav>
     )

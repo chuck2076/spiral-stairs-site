@@ -16,12 +16,29 @@
     font-weight: bold;
     }
 
-  h1, nav-link {
+  h1, h2, h3, .nav-link {
     font-family: "Turnpike", sans-serif;
-    color:rgb(0, 0, 0);
+    color:rgb(0,0,0);
+    text-shadow: 2px 2px 2px rgb(146, 144, 144);
   }
 
-h2, h3, h4, h5, h6, p {
+  .nav-link {
+    font-size: 2em;
+  }
+
+  .nav-item {
+    color:rgb(42,49,86);
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: bold;
+  }
+
+ h4, h5, h6, p {
   margin: 0;
   font-family: "Work Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
