@@ -4,7 +4,7 @@ import React from "react";
 export default function Tour(){
     return(
         <div style={{marginLeft:'10%'}}>
-            <iframe src="https://pavementband.com/#tour" width="95%" height="1000"></iframe>
+            <iframe src="https://pavementband.com/#tour" width="95%" height="1000" title="Pavement Tour Page"></iframe>
         </div>
     )
     
