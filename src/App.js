@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Footer from "./components/Footer";
@@ -10,11 +10,11 @@ import Videos from './pages/Videos'
 import Merch from './pages/Merch'
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState('home');
+//  const [currentPage, setCurrentPage] = useState('home');
   return (
     <main style={{ backgroundImage: "url( /images/BlueBackground.jpg)", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
       <BrowserRouter>
-        <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path='/tour' element={<Tour />}></Route>
