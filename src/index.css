@@ -16,14 +16,39 @@
     font-weight: bold;
     }
 
-  h1, nav-link {
+  h1, h2, h3, .nav-link, nav {
     font-family: "Turnpike", sans-serif;
-    color:rgb(0, 0, 0);
+    color:rgb(0,0,0);
+    text-shadow: 2px 2px 2px rgb(146, 144, 144);
   }
 
-h2, h3, h4, h5, h6, p {
+  .nav-link {
+    font-size: 2em;
+  }
+
+  .nav-item {
+    color:rgb(42,49,86);
+  }
+
+  a:link{
+    text-decoration: none;
+    color:rgb(0,0,0);
+    
+  }
+
+  a:visited{
+    text-decoration: none;
+    color:rgb(0,0,0);
+  }
+
+  a:hover {
+    font-weight: bold;
+    color: #1D253F
+  }
+
+ h4, h5, h6, p {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: "WorkSans-Bold", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
