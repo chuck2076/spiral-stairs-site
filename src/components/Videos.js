@@ -10,8 +10,7 @@ export default function Videos(){
         {/* <h6 style = {{color: "white"}}>Choose an artist to view YouTube videos!</h6>        
         <select className="custom-select m-50% w-50px" id="artist"
         onChange={(e)=>setArtist(e.target.value)}>
-          <option defaultValue>Choose Artist</option>
-          <option value="Spiral Stairs">Spiral Stairs</option>
+          <option defaultValue="Spiral Stairs">Spiral Stairs</option>
           <option value="Preston School of Industry">Preston School of Industry</option>
           <option value="Pavement">Pavement</option>
         </select> */}

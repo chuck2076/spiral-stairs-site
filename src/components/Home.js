@@ -19,12 +19,6 @@ export default function Home(){
                 <img src='images/Cheetah.png' alt="Cheetah" style={{width: '100%'}} className="img-fluid" />
         </Col>
         </Row>
-        <Row className="justify-content-center m-5" flex="true">
-            <Col xs={12}>
-        <h1 style = {{ textAlign: "center"}}>On Tour With Pavement In 2022</h1>
-        <h2 style = {{textAlign: "center"}}><a style = {{textDecoration: "none"}} href = "tour">Get Your Tix Here</a></h2>
-        </Col>
-        </Row>
     </Container>
     )
 }

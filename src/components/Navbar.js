@@ -35,9 +35,13 @@ const Navbar = () => {
   })}>Watch&nbsp;</NavLink>
     </li>
   <li className="nav-item">
-    <a data-toggle="collapse" data-target="#navbarCollapse" href="https://kf-merch.com/collections/spiral-stairs" className="nav-link" target="_blank" rel="noreferrer" style={{
+    <a data-toggle="collapse" data-target="#navbarCollapse" href="https://spiralstairs.bandcamp.com/" className="nav-link" target="_blank" rel="noreferrer" style={{
     color: '#545e6f', fontSize: '2.5em'
-  }} >Shop</a></li>
+  }} >Bandcamp</a></li>
+  <li className="nav-item">
+    <a data-toggle="collapse" data-target="#navbarCollapse" href="https://pavementband.com/" className="nav-link" target="_blank" rel="noreferrer" style={{
+    color: '#545e6f', fontSize: '2.5em'
+  }} >Pavement</a></li>
 
         </ul>
      </div> 
