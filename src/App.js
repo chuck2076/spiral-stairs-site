@@ -12,7 +12,7 @@ import Merch from './pages/Merch'
 export default function App() {
 //  const [currentPage, setCurrentPage] = useState('home');
   return (
-    <main style={{ backgroundImage: "url( /images/BlueBackground.jpg)", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
+    <main>
       <BrowserRouter>
         <Navbar />
         <Routes>
