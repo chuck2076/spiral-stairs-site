@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/jsx-no-target-blank */
 // Carousel of Albums with Listen and Buy Links
 import React from "react";
 import {Container, Row} from 'react-bootstrap'
