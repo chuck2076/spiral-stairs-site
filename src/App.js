@@ -2,7 +2,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import NewNavbar from "./components/Navbar";
 import Home from './components/Home';
 import Music from './pages/Music'
 import Tour from './pages/Tour'
@@ -14,7 +14,7 @@ export default function App() {
   return (
     <main>
       <BrowserRouter>
-        <Navbar />
+      <NewNavbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path='/tour' element={<Tour />}></Route>
