@@ -46,18 +46,18 @@
 
   a:link{
     text-decoration: none;
-    color:rgb(0,0,0);
+    color:#1D253F;
     
   }
 
   a:visited{
     text-decoration: none;
-    color:rgb(0,0,0);
+    color:#1D253F;
   }
 
   a:hover {
     font-weight: bold;
-    color: #1D253F
+    color: #1D253F;
   }
 
  h4, h5, h6, p {
@@ -68,11 +68,11 @@
 }
 
 .custom-toggler {
-  background-color: #545e6f;
+  position: right;
+  align-self: right;
   margin-top: 10px;
+  text-align: right;
 }
-
-
 
 
 .clip{
