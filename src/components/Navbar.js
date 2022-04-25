@@ -23,7 +23,7 @@ const NewNavbar = () => {
   })}>Watch&nbsp;</NavLink>
   
   <div className="nav-item">
-    <a data-toggle="collapse" data-target="#navbarCollapse" href="https://spiralstairs.bandcamp.com/" className="nav-link" target="_blank" rel="noreferrer" style={{
+    <a data-toggle="collapse" data-target="#navbarCollapse" href="https://spiralstairspsoi.bandcamp.com/" className="nav-link" target="_blank" rel="noreferrer" style={{
     color: '#545e6f', fontSize: '2em'
   }} >Bandcamp&nbsp;</a></div>
   <div className="nav-item">

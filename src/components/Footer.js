@@ -8,7 +8,7 @@ export default function Footer(){
 
     <div className="m-2">
       {/* change bandcamp logo to bandcamp-logo-svgrepo-com.svg because nobody recognizes this symbol, also resize to match other logos */}
-        <a href="https://spiralstairs.bandcamp.com/"><img src="/images/bandcamp-logo-svgrepo-com.svg" alt="Bandcamp"></img></a>
+        <a href="https://spiralstairspsoi.bandcamp.com/"><img src="/images/bandcamp-logo-svgrepo-com.svg" alt="Bandcamp"></img></a>
       </div>      
     <div className="m-2">
         <a href="https://twitter.com/spiralmusic"><img src="/images/3228543_app_b_w_logo_media_popular_icon.svg" alt="Twitter"></img></a>
