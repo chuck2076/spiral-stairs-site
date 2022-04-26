@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Footer(){
     return(
-      <nav className="navbar navbar-expand-lg navbar-light justify-content-center mt-5">
+      <nav className="navbar navbar-expand-lg navbar-light justify-content-center mt-2">
 
     <div className="m-2">
       {/* change bandcamp logo to bandcamp-logo-svgrepo-com.svg because nobody recognizes this symbol, also resize to match other logos */}
