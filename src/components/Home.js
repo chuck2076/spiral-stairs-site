@@ -1,6 +1,5 @@
 //This is the latest news, album releases, and other updates.
 
-import { Button } from "bootstrap";
 import React from "react";
 import {Container, Row, Col} from 'react-bootstrap'
 
@@ -12,7 +11,7 @@ export default function Home(){
         <a flex="true" href="https://spiralstairspsoi.bandcamp.com/">
         <h3 className="cliptwo">New Album</h3><h1 className="clip">Medley Attack!!!</h1><h3 className="cliptwo">July 08 2022</h3>
         </a> 
-        <a href="https://spiralstairspsoi.bandcamp.com/" className="cliptwo mt-5 h3" >PreOrder <img className="preorder" src="images/ElBuen.png" width="40%" alt="el buen" /> Now</a>
+        <a href="https://spiralstairspsoi.bandcamp.com/" className="cliptwo mt-5" >PreOrder <img className="preorder" src="images/ElBuen.png" width="30%" alt="el buen" /> Now</a>
         </Row>
         <Row className="justify-content-center mt-5" flex="true">
             <Col xs={3} flex="true">
