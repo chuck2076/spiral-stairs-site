@@ -101,16 +101,33 @@ text-align: center;
   
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2A3156", endColorstr="#545E6F", GradientType=1 );
 font-size: 2vw;
+font-family: "Turnpike", sans-serif;
 text-align: center;
+
 }
 
 .imagetext {
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: hsla(230, 34%, 25%, 1);
+  color: linear-gradient(90deg, hsla(230, 34%, 25%, 1) 26%, hsla(218, 14%, 38%, 1) 90%);
+  
+  color: -moz-linear-gradient(90deg, hsla(230, 34%, 25%, 1) 26%, hsla(218, 14%, 38%, 1) 90%);
+  
+  color: -webkit-linear-gradient(90deg, hsla(230, 34%, 25%, 1) 26%, hsla(218, 14%, 38%, 1) 90%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2A3156", endColorstr="#545E6F", GradientType=1 );
   font-size: 1.5vw;
   font-family: "Turnpike", sans-serif;
   text-shadow: #b38977 2px 2px 2px;
+}
+
+.preorder {
+  position: relative;
+  animation: mymove 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
+@keyframes mymove {
+  from {left: -50%;}
+  to {left: 0%;}
 }
