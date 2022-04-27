@@ -114,12 +114,19 @@ text-shadow: #b38977 2px 2px 2px;
 
 .preorder {
   position: relative;
-  animation: mymove 5s;
+  animation: mymove 3s;
   animation-iteration-count: 1;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in;;
+  align-items: center;
+  margin-left: 35%;
 }
 
 @keyframes mymove {
-  from {left: -50%;}
+  from {left: -150%;}
   to {left: 0%;}
+}
+
+@keyframes mymove {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(359deg);}
 }

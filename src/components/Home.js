@@ -8,10 +8,14 @@ export default function Home(){
     return(
     <Container flex="true">
         <Row className="justify-content-center mt-5">
+            <Col xs={6} md={6}>
         <a flex="true" href="https://spiralstairspsoi.bandcamp.com/">
         <div className="cliptwo">New Album</div><h2 className="clip">Medley Attack!!!</h2><div className="cliptwo">July 08 2022</div>
         </a> 
-        <a href="https://spiralstairspsoi.bandcamp.com/" className="cliptwo mt-3" >PreOrder <img className="preorder" src="images/ElBuen.png" width="15%" alt="el buen" /> Now</a>
+            </Col>
+            <Col xs={6} md={6} className="justify-content-center">
+        <a href="https://spiralstairspsoi.bandcamp.com/" className="cliptwo">PreOrder Now<br></br> <img className="preorder" src="images/ElBuen.png" width="25%" alt="el buen" /></a>
+        </Col>
         </Row>
         <Row className="justify-content-center mt-3" flex="true">
             <Col xs={3} flex="true">
