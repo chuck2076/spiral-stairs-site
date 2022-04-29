@@ -13,7 +13,7 @@ export default function Home(){
         <div className="cliptwo">New Album</div><h2 className="clip">Medley Attack!!!</h2><div className="cliptwo">July 08 2022</div>
         </a> 
             </Col>
-            <Col xs={6} md={6} className="justify-content-center">
+            <Col xs={6} md={6} className="justify-content-center align-items-center">
         <a href="https://spiralstairspsoi.bandcamp.com/" className="cliptwo">PreOrder Now<br></br> <img className="preorder" src="images/ElBuen.png" width="25%" alt="el buen" /></a>
         </Col>
         </Row>
