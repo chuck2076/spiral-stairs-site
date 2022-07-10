@@ -14,7 +14,7 @@ export default function Home(){
         </a> 
             </Col>
             <Col xs={6} md={6} className="justify-content-center align-items-center">
-        <a href="https://spiralstairspsoi.bandcamp.com/" className="cliptwo ml-5">PreOrder Now<br></br> <img className="preorder" src="images/ElBuen.png" width="25%" alt="el buen" /></a>
+        <a href="https://spiralstairspsoi.bandcamp.com/" className="cliptwo ml-5">Order Now<br></br> <img className="preorder" src="images/ElBuen.png" width="25%" alt="el buen" /></a>
         </Col>
         </Row>
         <Row className="justify-content-center mt-3" flex="true">
