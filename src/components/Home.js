@@ -10,12 +10,12 @@ export default function Home(){
     <Container flex="true">
         <Row className="mt-5">
             <Col xs={6} md={6} className="justify-space-between">
-        <Link flex="true" to="https://spiralstairspsoi.bandcamp.com/">
+        <a flex="true" href="https://spiralstairspsoi.bandcamp.com/">
         <div className="cliptwo">New Album</div><h2 className="clip">Medley Attack!!!</h2><div className="cliptwo">July 08 2022</div>
-        </Link>
+        </a>
         </Col>
             <Col xs={6} md={6} className="justify-space-between">
-        <Link to="https://spiralstairspsoi.bandcamp.com/" className="cliptwo ml-5">Order Now<img className="preorder" src="images/ElBuen.png" width="25%" alt="el buen" /></Link>
+        <a href="https://spiralstairspsoi.bandcamp.com/" className="cliptwo ml-5">Order Now<img className="preorder" src="images/ElBuen.png" width="25%" alt="el buen" /></a>
         </Col>
         </Row>
         <Row className= "mt-3" flex="true">
