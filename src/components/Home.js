@@ -41,18 +41,6 @@ export default function Home(){
             <td>Bottom of the Hill</td>
             <td>SF, CA</td>
         </tr>
-        <tr>
-        <td><Button variant="light" href="https://www.ticketweb.com/event/spiral-stairs-guests-sunset-tavern-tickets/12533395?pl=sunset&irgwc=1&clickid=yL53W8wkfxyNRFW0Vm26Pw3CUkDSXSR5ISplww0&camefrom=CFC_BUYAT_219208&impradid=219208&REFERRAL_ID=tmfeedbuyat219208&wt.mc_id=aff_BUYAT_219208&utm_source=219208-Bandsintown&impradname=Bandsintown&utm_medium=affiliate&ircid=4272">Get Tix</Button></td>
-            <td>01/24/2023</td>
-            <td>Sunset Tavern</td>
-            <td>Seattle, WA</td>
-        </tr>
-        <tr>
-        <td><Button variant="light" href="https://www.eventbrite.com/e/spiral-stairs-tickets-420730394937?aff=aff0bandsintown&appId=onaqfvagbja_jro&comeFrom=257&artist_event_id=103787459">Get Tix</Button></td>
-            <td>01/25/2023</td>
-            <td>Doug Fir Lounge</td>
-            <td>Portland, OR</td>
-        </tr>
     </tbody>
         </Table>
         </Col>
