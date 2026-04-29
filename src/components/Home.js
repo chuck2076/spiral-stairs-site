@@ -28,22 +28,70 @@ export default function Home(){
                 <Table>
                     <tbody className="imagetext">
                         <tr>
-                        <td><Button variant="light" href="https://www.prekindle.com/promo/id/-2853111880280643763" target="_blank">Get Tix</Button></td>
-                            <td>09/26/25</td>
-                            <td>Longhorn Ballroom</td>
-                            <td>Dallas, TX</td>
+                        <td><Button variant="light" href="https://wl.eventim.us/event/Mosswood-Meltdown-Pre-Party-with-Pavement-and-more/676010?afflky=MosswoodMeltdown" target="_blank">Get Tix</Button></td>
+                            <td>07/17/26</td>
+                            <td>Mosswood Meltdown Pre-Party</td>
+                            <td>Oakland, CA</td>
                         </tr>
                         <tr>
-                        <td><Button variant="light" href="https://wl.seetickets.us/event/LEVITATION-2025/651997?afflky=LEVITATION" target="_blank">Get Tix</Button></td>
-                            <td>09/28/25</td>
-                            <td>Levitation Festival</td>
-                            <td>Austin, TX</td>
+                        <td><Button variant="light">Sold Out</Button></td>
+                            <td>07/18/26</td>
+                            <td>Revolution Hall</td>
+                            <td>Portland, OR</td>
                         </tr>
                         <tr>
-                        <td><Button variant="light" href="https://feverup.com/m/359217/en" target="_blank">Get Tix</Button></td>
-                            <td>11/01/25</td>
-                            <td>HIPNOSIS 2025</td>
-                            <td>Ciudad De México, Mexico</td>
+                        <td><Button variant="light">Sold Out</Button></td>
+                            <td>07/19/26</td>
+                            <td>Woodland Park Zoo</td>
+                            <td>Seattle, WA</td>
+                        </tr>
+                        <tr>
+                        <td><Button variant="light" href="https://www.axs.com/events/1281679/pavement-tickets?skin=palacetheatre">Get Tix</Button></td>
+                            <td>07/21/26</td>
+                            <td>Palace Theatre</td>
+                            <td>Minneapolis, MN</td>
+                        </tr>
+                        <tr>
+                        <td><Button variant="light">Sold Out</Button></td>
+                            <td>07/22/26</td>
+                            <td>Salt Shed Fairgrounds</td>
+                            <td>Chicago, IL</td>
+                        </tr>
+                        <tr>
+                        <td><Button variant="light" href="https://www.axs.com/events/1283578/pavement-tickets">Get Tix</Button></td>
+                            <td>07/23/26</td>
+                            <td>Agora Theatre</td>
+                            <td>Cleveland, OH</td>
+                        </tr>
+                        <tr>
+                        <td><Button variant="light" href="https://www.ticketmaster.com/pavement-more-at-make-the-world-philadelphia-pennsylvania-07-24-2026/event/0200647A99E58F7C?utm_medium=affiliate&irgwc=1&afsrc=1&clickid=UJtR7FwSdxyZTNVRyk33BTxhUkuypl15ISplww0&camefrom=CFC_BUYAT_219208&impradid=219208&REFERRAL_ID=tmfeedbuyat219208&wt.mc_id=aff_BUYAT_219208&utm_source=219208-Bandsintown&impradname=Bandsintown&ircid=4272">Get Tix</Button></td>
+                            <td>07/24/26</td>
+                            <td>Make The World Better</td>
+                            <td>Philadelphia, PA</td>
+                        </tr>
+                        <tr>
+                        <td><Button variant="light" href="https://www.axs.com/events/1286639/pavement-tickets?skin=nationalva">Get Tix</Button></td>
+                            <td>07/25/26</td>
+                            <td>The National</td>
+                            <td>Richmond, VA</td>
+                        </tr>
+                        <tr>
+                        <td><Button variant="light" href="https://www.axs.com/events/1284231/pavement-tickets?skin=ryman">Get Tix</Button></td>
+                            <td>07/27/26</td>
+                            <td>The Ryman Auditorium</td>
+                            <td>Nashville, TN</td>
+                        </tr>
+                        <tr>
+                        <td><Button variant="light" href="https://www.axs.com/events/1308718/pavement-tickets?skin=ryman">Get Tix</Button></td>
+                            <td>07/28/26</td>
+                            <td>The Ryman Auditorium</td>
+                            <td>Nashville, TN</td>
+                        </tr>
+                        <tr>
+                        <td><Button variant="light" href="https://shakyknees.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=shakyknees&utm_medium=affiliate&irgwc=1&afsrc=1&clickid=UJtR7FwSdxyZTNVRyk33BTxhUkuypnVtISplww0&camefrom=CFC_BUYAT_219208&impradid=219208&REFERRAL_ID=tmfeedbuyat219208&wt.mc_id=aff_BUYAT_219208&utm_source=219208-Bandsintown&impradname=Bandsintown&ircid=4272">Get Tix</Button></td>
+                            <td>09/19/26</td>
+                            <td>Shaky Knees Festival</td>
+                            <td>Atlanta, GA</td>
                         </tr>
                     </tbody>
                 </Table>
